@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;  
+}
+
+body{
+    margin:0;
+    background: black;
+}
+
+.row{
+   width: 1903px;
+    
+}
+.container{
+/*margin:0;*/
+}
+.toppage{
+    width: 1903px;
+    height: 890px;
+    
+    background-color: white;
+}    
+.toppage-top{
+    width: 1259px;
+    height: 840px;
+    background-image: url('Vector\ 7.1..jpg');
+   
+}
+.backgroundimg{
+    width: 1259px;
+    height: 840px;
+    position: fixed;
+    background-size: cover;
+}
+
+.toppage-logo{
+    margin-top:79px; 
+    margin-left:-21.5px;
+    
+    
+}
+.toppage-button{
+    margin-top:132px;
+    margin-left:-21.5px;    
+}
+.toppage-button2{
+    background: #6D91EE;
+    border-radius: 20px;
+    width: 167px;
+    height: 50px;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 50;
+font-size: 96px;
+color: #4F4F4F;
+line-height: 1;
+margin-top: 27px;
+margin-left:-21.5px;
+margin-bottom: 20px;
+}
+.toppage-lorem{
+    font-weight: 800;
+    
+}
+.toppage-lorem2{
+    font-weight: 600;
+    font-size: 18px;
+}
+.toppage-button3{
+    margin-top:20px;
+    margin-left:-21.5px;    
+}
+.toppage-button4{
+    background: #5180F7;
+    border-radius: 71px;
+    width: 280px;
+    height: 86px;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.secondpage{
+    width: 1903px;
+    height: 840px;
+}    
+.secondpage-top{
+    width: 1903px;
+    height: 840px;
+    background-image: url('Rectangle\ 262.jpg');
+    background-size: cover;
+}
+
+.secondpage-vector{
+    background-repeat: no-repeat;
+    width:1903px ;
+    height: 840px;
+    background-image: url('Vector\ 8.svg');
+    background-position: right;
+}
+#row1{
+ height: 564px;
+}
+
+.secondpage-about{
+    margin-top: 50px;
+    margin-left: 54px;
+    
+}
+.secondpage-aboutus{
+    font-weight: 900;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    margin-top:50px;
+    margin-bottom: 30px ;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    
+}
+.secondpage-text{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 1.5;
+    margin-top: 0;
+}
+.secondpage-text1{
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 1.5;
+    margin-top: 0;
+}
+.secondpage-img{
+    background: none;
+    margin-top: 34px;
+}
+.secondpage-where{
+    margin-top: 156px;
+    margin-right:34px ;
+}
+.secondpage-button{
+    margin-top:140px;
+    margin-left:-21.5px;  
+
+}
+.secondpage-button1{
+    background: #EEC04B;
+    border-radius: 71px;
+    width: 280px;
+    height: 86px;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #515151;
+}
+.thirdpage{
+    width: 1903px;
+    height: 2258px;
+    background-color: white;
+}   
+.thirdpage-service{
+    margin-top: 70px;
+}
+.thirdpage-3logos{
+    margin-top:66px;
+    
+}
+.thirdpage-Loremtext{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    color: #324473;
+
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin:0;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.thirdpage-logo{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(16, 51, 30, 0.1);
+    border-radius: 30px;
+    width: 385px;
+    height: 504px;
+
+
+}
+.thirdpage-logo1{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(16, 51, 30, 0.1);
+    border-radius: 30px;
+    width: 385px;
+    height: 504px;
+    margin-left: 263px;
+
+}
+.thirdpage-logo2{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(16, 51, 30, 0.1);
+    border-radius: 30px;
+    width: 385px;
+    height: 504px;
+    margin-left:43px;
+
+}
+.thirdpage-logo3{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(16, 51, 30, 0.1);
+    border-radius: 30px;
+    width: 385px;
+    height: 504px;
+    margin-left:-178px;
+
+}
+
+.thirdpage-Loremtext2{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #324473;
+
+display: flex;
+justify-content: flex-start;
+align-content: flex-start;
+margin:0;
+margin-left: 30px;
+margin-top: 10px;
+}
+.thirdpage-button3{
+    margin-top:50px;
+    margin-left:-21.5px;    
+}
+.toppage-button4{
+    background: #5180F7;
+    border-radius: 71px;
+    width: 280px;
+    height: 86px;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.col-xs-5{
+    width: 577px;
+}
+.thirdpage-testymonialstexts{
+  
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #6D91EE;
+margin: 0;
+margin-top: 30px;
+margin-left: -34px;
+
+}
+.thirdpage-testymonialstexts1{
+  
+    font-weight: 400;
+    font-size: 14px;
+    color: #22366A;
+    margin: 0;
+    margin-top: 13px;
+    margin-left: -34px;
+}
+.thirdpage-stars{
+    margin-left: -34px;
+    margin-top: 11.2px;
+}
+.thirdpage-firstline{
+    margin-top: 76px;
+}
+.thirdpage-firstline1{
+    margin-top: 45px;
+}
+.thirdpage-firstbox{
+    background: #FFFFFF;
+    border: 1px solid #6D91EE;
+    border-radius: 40px;
+    width: 577px;
+height: 233px;
+margin-left: 243px;
+
+}
+.thirdpage-firstbox1{
+    background: #FFFFFF;
+    border: 1px solid #6D91EE;
+    border-radius: 40px;
+    width: 577px;
+    height: 233px;
+    margin-left:-84px
+
+}
+.thirdpage-smallimg{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.thirdpage-lastboxes{
+    background: #CEDCFF;
+    border-radius: 61px;
+    width: 374px;
+    height: 56px;
+    margin-top:14px;
+    margin-left: 474px;
+}
+
+.thirdpage-contactinfo{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    margin-left: 25px;
+}
+.thirdpage-lastitem{
+    border: 3px solid #5180F6;
+    border-radius: 61px;
+    width: 168px;
+    height: 56px;
+    margin-top: 14px;
+    margin-left: 571px;
+}
+.thirdpage-bottom{
+    margin-top: 44px;;
+}
+footer{
+    width: 1903px;
+height: 145px;
+background: #0C1E49;
+border-radius: 0px;
+
+}
